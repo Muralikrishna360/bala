@@ -1,0 +1,1 @@
+web: gunicorn bala.wsgi:application --log-file -
