@@ -1,1 +1,1 @@
-web: gunicorn bala.wsgi:application --log-file -
+echo web: gunicorn bala.wsgi --log-file -> Procfile

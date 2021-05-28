@@ -4,6 +4,6 @@ from app1 import views
 
 urlpatterns = [
 
-    path('index', views.index, name='index'),
+    path('', views.index, name='index'),
     path('home', views.home, name='home'),
 ]
